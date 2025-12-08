@@ -1,0 +1,51 @@
+<!--
+Developer: Weston Tenyer
+Date: 12/08/2025
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Contact - Fun in Port Huron</title>
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<header>
+    <h1>Fun in Port Huron</h1>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="dining.html">Dining</a></li>
+            <li><a href="entertainment.html">Entertainment</a></li>
+            <li><a href="events.html">Events</a></li>
+            <li><a href="watersports.html">Watersports</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+</header>
+
+<main>
+    <h2>Contact Me</h2>
+    <p>Have questions or comments? Send a message below!</p>
+
+    <form action="http://cis205.cis.sc4.edu/scripts/semprojdata.php" method="POST">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" required></textarea>
+
+        <button type="submit">Send</button>
+    </form>
+</main>
+
+<footer>
+    <p>&copy; 2025 Weston Tenyer | <a href="mailto:wtenyer@student.sc4.edu">Email Me</a></p>
+</footer>
+</body>
+</html>
